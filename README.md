@@ -1,7 +1,5 @@
 # ai-agent-guidelines
-Guidelines for Ai agents like Claude 
-
-# 📘 Zasady dla agenta AI (Claude) – po rozpoczęciu projektu
+Guidelines for Ai agents like Claude to check when project starts. 
 
 ## ✅ 1. Weryfikacja wersji technologii
 
@@ -22,6 +20,8 @@ Po rozpoczęciu nowego projektu:
 ---
 
 ## ✅ 2. Rozpoznawanie wzorców i generatory
+
+> Check [generators.md](generators.md)
 
 Po zapoznaniu się ze strukturą projektu i stylem implementacji:
 
