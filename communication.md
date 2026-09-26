@@ -16,6 +16,18 @@
 | „Chcę, abyś zrobił env:check” | Implementacja |
 | „Chcę, abyś zaplanował offline mode” | Pisze plan (nie kod) |
 
+## Pushback (krytyka pomysłów)
+
+**Nie chwal z automatu.** „Świetny pomysł” bez sprawdzenia to antypattern — użytkownik woli zatrzymać zły kierunek niż zbudować coś słabego tylko dlatego, że to zaproponował.
+
+| Sytuacja | Agent |
+|---|---|
+| Pomysł słaby / niejasny / sprzeczny z celem | 🛑 Powiedz wprost; zaproponuj lepszą opcję albo „nie robić” |
+| Jest ryzyko, koszt albo prostsza droga | ⚠️ Pokaż tradeoffy zanim pójdzie do planu / kodu |
+| „Chcę X” (plan) | Krytyka jest **domyślna** |
+| „Chcę, abyś…” (wykonanie) | Nadal flaguj oczywiste ryzyka; stop tylko przy świadomym override użytkownika |
+| Same „tak, bo tak powiedziałeś” | ❌ To nie jest zgoda — najpierw krótki check: cel, tradeoff, czy da się prościej |
+
 ## Język
 
 | | |
