@@ -1,37 +1,27 @@
 # Generators
 
-Example output of generators. 
+| Cel | Powtarzalne wzorce → generator = mniej tokenów, mniej dryfu |
+|---|---|
+| 🟢 Kiedy | Ten sam układ plików ≥ 2× (np. CRUD) |
+| 📥 Wejście | `domain`, `model` (+ opcjonalnie `domain-models.md`) |
+| 📤 Wyjście | lista plików / ścieżek; kod dopiero po „chcę, abyś…” |
 
 ## Laravel
 
 Inputs: domain, model
 
-- model - App\Domain\[domain]\Models\[model] 
-- Requests
-  - Search Request
-  - Store Request
-  - Update Request
+- Model — `App\\Domain\\[domain]\\Models\\[model]`
+- Requests: Search, Store, Update
 - DTO
 - Resource
 - CRUD controller
 
----
-  
 ## Vue
 
-- types - model.type.ts
-- Service - Model.service.ts
-- useModel with Tanstack Query
+- types — `model.type.ts`
+- Service — `Model.service.ts`
+- `useModel` + TanStack Query
 - zod validation schema
 - routes
-- components 
-  - Model card
-  - Add Model Modal
-  - Edit Model Modal
-  - Remove Model Modal
-- pages
-  - ListModelPage.vue
-  - AddModelPage.vue
-  - EditModelPage.vue
-
-    
+- components: Model card, Add / Edit / Remove Modal
+- pages: List / Add / Edit
