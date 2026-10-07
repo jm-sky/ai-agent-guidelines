@@ -7,13 +7,14 @@ Nie trzymają stacku konkretnego projektu — to zostaje w `AGENTS.md` projektu.
 
 | Plik | Temat |
 |---|---|
-| [communication.md](communication.md) | Intent, język, tempo, format odpowiedzi |
+| [communication.md](communication.md) | Intent, język, tempo, format, pushback |
 | [directory-structure.md](directory-structure.md) | `docs/`, nazwy plików, `AGENTS.md` |
 | [linters.md](linters.md) | Preferencje + przykłady configów |
-| [lifecycle.md](lifecycle.md) | Vision → plan → implement → review → verify |
-| [planning.md](planning.md) | Wizja, roadmap, plan, implementation-notes |
+| [lifecycle.md](lifecycle.md) | Vision → research → plan → implement → review → verify |
+| [planning.md](planning.md) | Wizja, research, roadmap, plan, implementation-notes |
 | [review.md](review.md) | Sesje review i artefakty |
 | [generators.md](generators.md) | Generatory na powtarzalną robotę |
+| [cost-tokens.md](cost-tokens.md) | Koszt AI, tokeny, research przed budową |
 
 ## Przykłady
 
